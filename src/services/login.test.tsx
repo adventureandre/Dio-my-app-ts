@@ -7,6 +7,6 @@ describe('login',()=>{
 
     it('Deve Exibir um alert com boas Vindas', function () {
         login()
-        expect(mockAlert).toBeCalled()
+        expect(mockAlert).toHaveBeenCalledWith('Bem vindo')
     });
 })
